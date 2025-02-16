@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="46">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>0</ID>
+      <Description>"Resource Mods"</Description>
+      <Options moHideChildren="1"/>
+      <GroupHeader>1</GroupHeader>
+      <Address/>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>2</ID>
+          <Description>"Infinite Tickets"</Description>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048,"PurpleWindowsStore.exe"+185EDA) 
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+dec [rbx+000000B4]
+inc [rbx+000000B4] // Freezes the Tickets
+
+exit:
+jmp returnhere
+
+"PurpleWindowsStore.exe"+185EDA:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"PurpleWindowsStore.exe"+185EDA:
+db FF 8B B4 00 00 00
+//dec [rbx+000000B4]
+
+
+
+
+
+
+
+
+
+
+
+// C B A K
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>9</ID>
+          <Description>"Infinite Monkey Boost"</Description>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048,"PurpleWindowsStore.exe"+185BC8) 
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+dec [rdi+000000B0]
+inc [rdi+000000B0] // Freezes Monkey Boost
+
+exit:
+jmp returnhere
+
+"PurpleWindowsStore.exe"+185BC8:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"PurpleWindowsStore.exe"+185BC8:
+db FF 8F B0 00 00 00
+//dec [rdi+000000B0]
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>6</ID>
+          <Description>"Increase Diamond [Hold 9]"</Description>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048,"PurpleWindowsStore.exe"+1BF030) 
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+add [rax+24],50
+
+originalcode:
+add ecx,[rax+24]
+call PurpleWindowsStore.exe+2BBF80
+
+exit:
+jmp returnhere
+
+"PurpleWindowsStore.exe"+1BF030:
+jmp newmem
+nop 3
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"PurpleWindowsStore.exe"+1BF030:
+db 03 48 24 E8 48 CF 0F 00
+//add ecx,[rax+24]
+//call PurpleWindowsStore.exe+2BBF80
+</AssemblerScript>
+          <Hotkeys>
+            <Hotkey OnlyWhileDown="1">
+              <Action>Toggle Activation</Action>
+              <Keys>
+                <Key>57</Key>
+              </Keys>
+              <ID>0</ID>
+            </Hotkey>
+          </Hotkeys>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>7</ID>
+          <Description>"Increase Coins [Hold 8]"</Description>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048,"PurpleWindowsStore.exe"+1BF030) 
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+add [rax+18],250
+
+originalcode:
+add ecx,[rax+24]
+call PurpleWindowsStore.exe+2BBF80
+
+exit:
+jmp returnhere
+
+"PurpleWindowsStore.exe"+1BF030:
+jmp newmem
+nop 3
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"PurpleWindowsStore.exe"+1BF030:
+db 03 48 24 E8 48 CF 0F 00
+//add ecx,[rax+24]
+//call PurpleWindowsStore.exe+2BBF80
+</AssemblerScript>
+          <Hotkeys>
+            <Hotkey OnlyWhileDown="1">
+              <Action>Toggle Activation</Action>
+              <Keys>
+                <Key>56</Key>
+              </Keys>
+              <ID>0</ID>
+            </Hotkey>
+          </Hotkeys>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>12</ID>
+      <Description>"Racing Mods"</Description>
+      <Options moHideChildren="1"/>
+      <GroupHeader>1</GroupHeader>
+      <Address/>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>11</ID>
+          <Description>"Infinite Powerups [Toggle: Shift Key]"</Description>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048,"PurpleWindowsStore.exe"+5EF8C) 
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+sub dword ptr [rdi+0C],01
+inc [rdi+0C]
+jne PurpleWindowsStore.exe+5EFDB
+
+exit:
+jmp returnhere
+
+"PurpleWindowsStore.exe"+5EF8C:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"PurpleWindowsStore.exe"+5EF8C:
+db 83 6F 0C 01 75 49
+//sub dword ptr [rdi+0C],01
+//jne PurpleWindowsStore.exe+5EFDB
+</AssemblerScript>
+          <Hotkeys>
+            <Hotkey>
+              <Action>Toggle Activation</Action>
+              <Keys>
+                <Key>16</Key>
+              </Keys>
+              <ID>0</ID>
+            </Hotkey>
+          </Hotkeys>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>15</ID>
+          <Description>"Freeze Boost Blitz &amp; Racing Time"</Description>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048,"PurpleWindowsStore.exe"+16C9BC) 
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+nop // simply do nothing
+
+exit:
+jmp returnhere
+
+"PurpleWindowsStore.exe"+16C9BC:
+jmp newmem
+nop 3
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"PurpleWindowsStore.exe"+16C9BC:
+db F2 0F 11 81 00 0C 00 00
+//movsd [rcx+00000C00],xmm0
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>18</ID>
+          <Description>"Always Come First [6 Player Race]"</Description>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048,"PurpleWindowsStore.exe"+161D8D) 
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+mov [rdx+00000C20],1 // Always 1st position, only for 6 player race
+
+exit:
+jmp returnhere
+
+"PurpleWindowsStore.exe"+161D8D:
+jmp newmem
+nop 2
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"PurpleWindowsStore.exe"+161D8D:
+db 44 89 8A 20 0C 00 00
+//mov [rdx+00000C20],r9d
+</AssemblerScript>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <CheatCodes>
+    <CodeEntry>
+      <Description>Code :cmp [r14+08],rax</Description>
+      <AddressString>PurpleWindowsStore.exe+D07D</AddressString>
+      <Before>
+        <Byte>8E</Byte>
+        <Byte>E3</Byte>
+        <Byte>38</Byte>
+        <Byte>8E</Byte>
+        <Byte>03</Byte>
+      </Before>
+      <Actual>
+        <Byte>49</Byte>
+        <Byte>39</Byte>
+        <Byte>46</Byte>
+        <Byte>08</Byte>
+      </Actual>
+      <After>
+        <Byte>74</Byte>
+        <Byte>7A</Byte>
+        <Byte>4C</Byte>
+        <Byte>89</Byte>
+        <Byte>74</Byte>
+      </After>
+    </CodeEntry>
+  </CheatCodes>
+  <UserdefinedSymbols/>
+</CheatTable>
