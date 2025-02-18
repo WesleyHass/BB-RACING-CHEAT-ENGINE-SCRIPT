@@ -1,5 +1,5 @@
 # BB-RACING-CHEAT-ENGINE-SCRIPT
-This is the first script of Beach Buggy Racing with 7 mods. These mods are designed to level up your playing field in the game with an unfair yet enjoyable advantage to your player.
+This is the first script of Beach Buggy Racing with 15 mods. These mods are designed to level up your playing field in the game with an unfair yet enjoyable advantage to your player.
 
 # MOD DESCRIPTION & GUIDE
 I will only mention such mods which require you an additional step to do in the game to enable it.
