@@ -1,6 +1,16 @@
 # BB-RACING-CHEAT-ENGINE-SCRIPT
 This is the first script of Beach Buggy Racing with 7 mods. These mods are designed to level up your playing field in the game with an unfair yet enjoyable advantage to your player.
 
+# MOD DESCRIPTION & GUIDE
+I will only mention such mods which require you an additional step to do in the game to enable it.
+
+GOD MODE
+
+To enable this mode, you need to own "Ghost" or "Mcskelly" Character. If you don't know how to own him without Dueling him, you can simply head to "QUICK RACE" || Then, you can select the map & while selecting the character, you can buy him using Diamonds
+
+Now, all you need to do is this. Enable GOD MODE while playing the race or not, The cheat works either way. Play a race. There, you'll see that your "Msckelly Ability" or "Player Ability" will fill up instantly. Like very very fast. You can click "A" on your keyboard to activate the ability. Then, you are invulnerable the entire race.
+Don't worry! Once you get the hang of it, it's incredibly easy and trust me; it won't be a boring step. Other things are explained below: If you've already installed cheat engine, you can skip to "Step 5" [ENJOY!!]
+
 # How to use the mod?
 
 Step 1: Download Cheat Engine from the following link
