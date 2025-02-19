@@ -33,6 +33,32 @@ This is the first script of Beach Buggy Racing with 23 mods. These mods are desi
      - Phase Through Players & Attacks
 
 > Note: You must own Msckelly or (Elzipo & Roxie) to use God Mode of Msckelly or (Elzipo & Roxie) respectively
+
+# Some Tips & Tricks
+1. Did you know?
+   - You can launch 40 Firework OR Fireball OR DeathBat attacks at once targeting to a single bot. Wondering How?
+   - In Cheat Engine, set up hotkeys, and set any two hotkeys to "Set Speedhack to 0.01" & "Set Speedhack to 1" respectively
+   - Now, check the button on Cheat Engine "Enable Speedhack" available on your right side
+   - Enter any race on any game
+   - Gain a powerup that doesn't have a heavy animation effects. Eg: Firework, Fireball, DeathBat etc
+   - Activate Infinite Powerup Using "Shift" Key
+   - Now, Identify Your Target and Press the Hotkey To "Set Speedhack to 0.01"
+   - Now, Click Space To Activate Your Powerup But, Do This 40 Times
+   - Now, Press the Hotkey To "Set Speedhack to 1"
+   - Enjoy The Scenery
+2. Did you know?
+   - The game uses boolean values "True" & "False" in 4 bytes to activate abilities like: Power, Powerups etc
+   - In boolean value, "True" is considered 1 & "False" is considered 0
+   - Hence, finding values like Boost, Shield Effect, Police Chase, Big Tires, Angry Bull is pretty easy
+   - If you find one, you can freeze your value to 1 i.e ALWAYS ON, and enjoy the effects
+   - Just don't try to turn this into a script because if you do, it will apply the same effects to everyone
+3. Did you know?
+   - Why does changing a certain value into a script cause everyone to gain the same effects?
+   - It is because, everyone in the racing field share the same class
+   - Since everyone has the same class, they also share the same variable
+   - Hence, changing that variable will apply its effects to everyone
+   - To make a script that will identify you and others, you need to learn about commonalities in Cheat Engine
+   - Having some knowledge of OOP will also give you a understanding of why...
 --------------------------------------------------------------------------------------------------------
 # How to use the mod?
 
